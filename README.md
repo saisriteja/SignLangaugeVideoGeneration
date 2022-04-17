@@ -95,7 +95,7 @@ The total_loss is the sum of real_loss and generated_loss.
 
 We can see the hand signs that are blurred, but the GAN is good enough to make the spatial information in most accurate way, we can use a encoder and decoder architecure for more significant way for accurate generation of hand gestures. 
 
-![images](https://github.com/saisriteja/SignLangaugeVideoGeneration/blob/main/results/content/frames_generated_train/24.png)
+<img src="https://github.com/saisriteja/SignLangaugeVideoGeneration/blob/main/results/content/frames_generated_train/24.png" width="512" height="512">
 
 
 The GAN is so good that it can even generate the shadows of the hand seemlesly when required.
