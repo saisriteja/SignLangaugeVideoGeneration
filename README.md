@@ -101,4 +101,3 @@ The total_loss is the sum of real_loss and generated_loss.
 
 
 
-
