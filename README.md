@@ -103,6 +103,8 @@ The GAN is so good that it can even generate the shadows of the hand seemlesly w
 ![images](https://github.com/saisriteja/SignLangaugeVideoGeneration/blob/main/results/content/frames_generated_train/4.png)
 
 
+<img src="https://github.com/saisriteja/SignLangaugeVideoGeneration/blob/main/results/content/frames_generated_train/26.png" width="100" height="100">
+
 
 
 
