@@ -55,10 +55,11 @@ The input image and the generated image (the output of the generator), which it 
 
 
 ## Loss Function
-![loss](https://user-images.githubusercontent.com/48018142/163720289-e091c4fc-b8bb-41e6-99f6-de6c63a4bd88.png)
 
 
 ### Generator Loss
+![loss](https://user-images.githubusercontent.com/48018142/163720289-e091c4fc-b8bb-41e6-99f6-de6c63a4bd88.png)
+
 The generator loss is a sigmoid cross-entropy loss of the generated images and an array of ones.
 The pix2pix paper also mentions the L1 loss, which is a MAE (mean absolute error) between the generated image and the target image.
 This allows the generated image to become structurally similar to the target image.
@@ -79,11 +80,13 @@ def generator_loss(disc_generated_output, gen_output, target):
 
 
 ### Discriminator Loss
+![disloss](https://user-images.githubusercontent.com/48018142/163720410-43af0ec8-4558-456b-b797-d1c17c0daa3e.png)
 
 The discriminator_loss function takes 2 inputs: real images and generated images.
 real_loss is a sigmoid cross-entropy loss of the real images and an array of ones(since these are the real images).
 generated_loss is a sigmoid cross-entropy loss of the generated images and an array of zeros (since these are the fake images).
 The total_loss is the sum of real_loss and generated_loss.
+
 
 
 
