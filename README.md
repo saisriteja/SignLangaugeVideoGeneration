@@ -99,10 +99,9 @@ We can see the hand signs that are blurred, but the GAN is good enough to make t
 
 
 The GAN is so good that it can even generate the shadows of the hand seemlesly when required.
-![images](https://github.com/saisriteja/SignLangaugeVideoGeneration/blob/main/results/content/frames_generated_train/26.png)
-![images](https://github.com/saisriteja/SignLangaugeVideoGeneration/blob/main/results/content/frames_generated_train/4.png)
 
 
+<img src="https://github.com/saisriteja/SignLangaugeVideoGeneration/blob/main/results/content/frames_generated_train/4.png" width="512" height="512">
 <img src="https://github.com/saisriteja/SignLangaugeVideoGeneration/blob/main/results/content/frames_generated_train/26.png" width="512" height="512">
 
 
